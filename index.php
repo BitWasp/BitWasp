@@ -1,5 +1,8 @@
 <title>asdf</title>
 <?php
+// still a few bits to touch up, like the page permissions for buyer, seller, admin..
+// will note up more later
+
 session_start();
 error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
 
