@@ -1,11 +1,11 @@
-<?php
+l<?php
 require_once("/var/www/mp/class/cls.fpdfix.php");
 $mysql = new MySQL;
 
 class MySQL {
 
   function connect(){
-    require_once("/var/www/mp/class/cls.conf.php");$conf = new Conf;
+    $conf = new Conf;
     $connect = mysql_connect($conf->sql['host'],$conf->sql['user'],$conf->sql['pass']);
     if(!$connect){
       echo "ERR1: There is a problem with the database, try again later.";
