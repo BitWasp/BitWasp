@@ -7,7 +7,6 @@ class User {
   public $username;
   public $request;
   public $admin;
-  public $login;
 
   function checkAdmin(){
     $sql = mysql_fetch_array(mysql_query("SELECT admin FROM `users` WHERE id='".$this->id."'"));
