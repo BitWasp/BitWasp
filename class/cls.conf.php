@@ -5,7 +5,7 @@ $conf = new Conf;
 class Conf {
   public $sql = Array('host' => 'localhost',
                       'user' => 'root',
-                      'pass' => 'nycxfkohc',
+                      'pass' => 'ny8ajehc',
                       'db' => 'dev');
 
   public $page = Array('salt' => 'W1n&x');
